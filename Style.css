@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    background-color: #7e41ff;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 25px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 110rem;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: auto;
+}
+
+.profile {
+    font-family: "Lato", "sans-serif";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fcc526;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 17px 17px 0 #643cb8;
+    width: 80%;
+    max-width: 800px;
+    border: 5px solid #000000;
+    height: 70rem;
+}
+
+.profile .info {
+    text-align: left;
+    padding-right: 20px;
+    width: 100%;
+    /* Garante que a info ocupe toda a largura disponível */
+}
+
+.profile h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #000000;
+    font-weight: bold;
+    position: relative;
+    display: flex;
+    right: -40px;
+}
+
+.profile h2 {
+    margin-top: 50px;
+    font-size: 1.6em;
+    color: #251e0e;
+    position: relative;
+    display: flex;
+    right: -40px;
+    font-weight: bold;
+}
+
+.profile h3 {
+    margin-top: -5px;
+    font-size: 1.4em;
+    color: #000000;
+    position: relative;
+    display: flex;
+    right: -40px;
+}
+
+.profile h4 {
+    margin-top: 5px;
+    font-size: 0.8em;
+    color: #000000;
+    position: relative;
+    display: flex;
+    right: -40px;
+    font-weight: bolder
+}
+
+.profile h5 {
+    margin-top: 50px;
+    font-size: 1.6em;
+    color: #251e0e;
+    position: relative;
+    display: flex;
+    top: -2rem;
+    right: -26rem;
+    font-weight: bold;
+}
+
+.profile h6 {
+    margin-top: 50px;
+    font-size: 1.6em;
+    color: #251e0e;
+    position: relative;
+    display: flex;
+    top: 21rem;
+    right: -23rem;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 1rem;
+    width: 100rem;
+    max-width: 400px;
+    height: 200px;
+    box-shadow: 12px 12px 0 #3dc39b;
+    border: 4px solid #000000;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.company-info {
+    align-items: center;
+    position: relative;
+    display: flex;
+    top: -4rem;
+    right: 5rem;
+}
+
+.company-logo {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+
+.atos {
+    margin: 1%;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5rem;
+    width: 100rem;
+    max-width: 400px;
+    position: relative;
+    display: flex;
+    top: -23rem;
+    right: 35%;
+    box-shadow: 12px 12px 0 #3dc39b;
+    border: 4px solid #000000;
+    display: flex;
+}
+
+.serilon {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5rem;
+    width: 100rem;
+    max-width: 400px;
+    position: relative;
+    display: flex;
+    top: -21rem;
+    right: 35%;
+    box-shadow: 12px 12px 0 #928cf8;
+    border: 4px solid #000000;
+}
+
+.flamex {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 5rem;
+    width: 100rem;
+    max-width: 400px;
+    position: relative;
+    display: flex;
+    top: -18rem;
+    right: 35%;
+    box-shadow: 12px 12px 0 #fe74a6;
+    border: 4px solid #000000;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    top: -413px;
+    right: -187px;
+    box-shadow: 13px 13px 0 #928cf8;
+    border: 4px solid #000000;
+}
+
+.image-container img {
+    width: 185px;
+    height: auto;
+}
+
+.container h8 {
+    font-weight: bold;
+    position: relative;
+    font-size: 1.2em;
+    text-align: left;
+    right: 21rem;
+    top: -51rem;
+}
+
+.container h9 {
+    font-weight: bold;
+    position: relative;
+    font-size: 1em;
+    right: 12rem;
+    top: -51rem;
+}
+
+.card {
+    font-family: "Lato", "sans-serif";
+}
+
+.card .content {
+    position: relative;
+    top: -10px;
+}
+
+.card h1 {
+    font-size: 1.3em;
+    right: 5rem;
+    top: -5rem;
+    font-weight: bold;
+}
+
+.card ul {
+    position: relative;
+    right: 5rem;
+    top: -4.6rem;
+    color: #696969;
+
+}
+
+.content ul.activities2 {
+    position: relative;
+    right: -7rem;
+    top: -169px;
+    color: #696969;
+}
+
+span.company-name {
+    font-weight: bold;
+    font-size: 1.3rem;
+    /* ou use 'px' se preferir, ex: 24px */
+}
+
+.data .data {
+    position: relative;
+    right: -10rem;
+    top: -324px;
+    color: #696969;
+    font-size: 0.9rem;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.local .local {
+    position: relative;
+    right: -10rem;
+    top: -307px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.education {
+    background-color: #ffe9a8;
+    color: #000000;
+    padding: 1rem;
+    width: 300px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: -12px 12px 0px #d6a820;
+    border: 4px solid #000000;
+    margin-top: 1rem;
+    overflow: hidden;
+    top: -58rem;
+    right: -25%;
+}
+
+.education-info {
+    font-size: 1rem;
+    color: #696969;
+}
+
+.education h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+    right: 20px;
+    top: 10px;
+}
+
+.education h2 {
+    font-size: 1rem;
+    font-weight: normal;
+    position: relative;
+    right: 20px;
+    top: -2rem;
+}
+
+span.ano {
+    font-size: 0.9rem;
+    color: #696969;
+    position: relative;
+    display: block;
+    margin-top: 1rem;
+    right: 20px;
+    top: -140px;
+}
+
+.skill {
+    background-color: #ffe9a8;
+    color: #000000;
+    padding: 1rem;
+    width: 400px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: -12px 12px 0px #d6a820;
+    border: 4px solid #000000;
+    margin-top: 1rem;
+    overflow: hidden;
+    top: -52.8rem;
+    right: -25%;
+}
+
+.skill h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
+    right: 20px;
+    top: -11px;
+}
+
+.skill-info ul {
+    font-size: 1rem;
+    position: relative;
+    right: 1rem;
+    top: -1rem;
+    color: #696969;
+}
