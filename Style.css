@@ -15,7 +15,7 @@ body {
     align-items: center;
     justify-content: flex-start;
     width: 100%;
-    height: 110rem;
+    height: auto;
 }
 
 .dados {
@@ -35,12 +35,12 @@ body {
     justify-content: space-between;
     background-color: #fcc526;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     box-shadow: 17px 17px 0 #643cb8;
     width: 80%;
     max-width: 800px;
     border: 5px solid #000000;
-    height: 70rem;
+    height: auto;
 }
 
 .profile .info {
@@ -354,4 +354,128 @@ span.ano {
     right: 1rem;
     top: -1rem;
     color: #696969;
+}
+
+
+@media (max-width: 768px) {
+
+    .profile {
+        width: 100%;
+        box-shadow: none;
+        padding: 15px;
+    }
+
+    .profile .info h1,
+    .profile .info h2,
+    .profile .info h3,
+    .profile .info h4,
+    .profile .info h5,
+    .profile .info h6 {
+        position: static;
+        right: auto;
+        top: auto;
+        margin: 5px 0;
+    }
+
+    .image-container {
+        position: static;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .image-container img {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .card {
+        position: static;
+        width: 100%;
+        max-width: none;
+        height: auto;
+        margin-bottom: 20px;
+        padding: 1rem;
+    }
+
+    .atos,
+    .serilon,
+    .flamex,
+    .education,
+    .skill {
+        position: static;
+        width: 100%;
+        max-width: none;
+        margin-bottom: 20px;
+    }
+
+    .card h1 {
+        position: static;
+        right: auto;
+        top: auto;
+        margin-bottom: 10px;
+    }
+
+    .company-info {
+        position: static;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .responsa {
+        display: block;
+    }
+
+    .card ul,
+    .content ul.activities2 {
+        position: static;
+        right: auto;
+        top: auto;
+        margin: 0;
+        padding: 0 0 0 20px;
+    }
+
+    .data,
+    .local {
+        position: static;
+        text-align: left;
+    }
+
+    .data .data,
+    .local .local {
+        position: static;
+        right: auto;
+        top: auto;
+    }
+
+    .education h1,
+    .education h2,
+    .skill h1 {
+        position: static;
+        right: auto;
+        top: auto;
+    }
+
+    .education-info span.ano {
+        position: static;
+        right: auto;
+        top: auto;
+        margin-top: 5px;
+    }
+
+    .skill-info ul {
+        position: static;
+        right: auto;
+        top: auto;
+    }
+
+    .profile h8,
+    .profile h9 {
+        position: static;
+        text-align: center;
+        margin-top: 20px;
+    }
 }
