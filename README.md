@@ -18,4 +18,5 @@ Branch correcao: Contém o código atualizado, com as melhorias de responsividad
 
 
 Pedro Henrique Ramoni Ouro: Responsável pela responsividade
+
 Igor Fellipe dos Santos Gato: Responsável pela organização do HTML
