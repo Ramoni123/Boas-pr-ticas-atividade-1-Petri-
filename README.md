@@ -16,3 +16,6 @@ Branch main: Contém os códigos originais do currículo, antes das melhorias.
 
 Branch correcao: Contém o código atualizado, com as melhorias de responsividade e organização do HTML.
 
+
+Pedro Henrique Ramoni Ouro: Responsável pela responsividade
+Igor Fellipe dos Santos Gato: Responsável pela organização do HTML
